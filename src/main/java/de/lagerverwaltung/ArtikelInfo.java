@@ -6,6 +6,7 @@ public class ArtikelInfo
     {
         //  ----- Artikeldaten -----
         // .......Artikel 1 ........
+
         String artikelName  ="Bürostuhl Comfort 3000";
         String artikelNummer = "ART-0042";
         int aktuellerBestand = 15;
@@ -30,7 +31,6 @@ public class ArtikelInfo
         double einkaufsPreis3 = 350.35;
         boolean istLieferbar3 = false;
 
-
         // ....... Ausgabe Artikel 1...........
         System.out.println("\n======= Lagerartikel 1 ======");
         System.out.println("Name:           " + artikelName);
@@ -39,7 +39,6 @@ public class ArtikelInfo
         System.out.println("Mindestbest.:   "+ mindestbestand);
         System.out.println("Einkaufspreis:  " + einkausPreis);
         System.out.println("Lieferbar:      "+ istLieferbar);
-
 
         // ...... Ausgabe Artikel 2 .............
         System.out.println();
